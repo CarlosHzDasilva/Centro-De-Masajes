@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+button, a, Link {
+  padding: 10px;
+  background-color: rgb(160, 229, 206);
+  border: 2px solid rgb(100, 146, 131);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button:hover, a:hover, Link:hover {
+  background-color: rgb(212, 255, 241);
+  border: 2px solid rgb(100, 146, 131);
+}
+
+button:active, a:active, Link:active {
+  background-color: rgb(160, 229, 206);
+  border: 2px solid rgb(160, 229, 206);
+}
+
+.boton-especial-Usuario, .boton-especial-Reservas {
+  background-color: rgb(229, 160, 160);
+  border: 2px solid rgb(146, 100, 100);
+}
+
+.boton-especial-Usuario:hover, .boton-especial-Reservas:hover {
+  background-color: rgb(255, 212, 212);
+  border: 2px solid rgb(146, 100, 100);
+}
+
+.boton-especial-Usuario:active, .boton-especial-Reservas:active {
+  background-color: rgb(229, 160, 160);
+  border: 2px solid rgb(229, 160, 160);
+}

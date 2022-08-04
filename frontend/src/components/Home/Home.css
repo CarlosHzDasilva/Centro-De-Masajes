@@ -1,0 +1,64 @@
+.main-Home {
+    padding: 0px 25px 0px 25px;
+    text-align: center;
+}
+
+.cardList-Home {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-Home {
+    width: 30%;
+    border: 2px solid rgb(100, 146, 131);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(160, 229, 206);
+    text-align: center;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.card-Home:hover {
+    transform: scale(1.1);
+    background-color: rgb(212, 255, 241);
+    border: 2px solid rgb(100, 146, 131);
+    box-shadow: 5px 5px 15px #000000;
+}
+
+.imagenTratamiento-Home {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.informacion-Home {
+    font-weight: 400;
+    border: 2px dotted rgb(100, 146, 131);
+}
+
+.informacion-Home:hover {
+    border: 2px dotted rgb(100, 146, 131);
+}
+
+@media (width < 770px) {
+    .cardList-Home {
+        flex-direction: column;
+    }
+
+    .card-Home {
+        width: 70%;
+    }
+}

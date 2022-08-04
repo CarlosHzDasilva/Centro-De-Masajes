@@ -1,0 +1,33 @@
+.formulario-Login  {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.formulario-Login input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.camposFormulario-Login, .registro-Login {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+@media (width < 880px) {
+    .camposFormulario-Login, .registro-Login {
+        width: 60%;
+    }
+}
+
+@media (width < 770px) {
+    .camposFormulario-Login, .registro-Login {
+        width: 90%;
+    }
+}

@@ -1,0 +1,77 @@
+.main-Usuario {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.aviso-Usuario {
+    text-align: center;
+}
+
+.user-image-Usuario {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid rgb(100, 146, 131);
+    padding: 5px;
+    overflow: hidden;
+}
+
+.usuario-Usuario, .actualizando-Usuario, .borrando-Usuario {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.datos-Usuario div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.datos-Usuario div span, .nuevo-dato-Usuario label {
+    font-weight: bold;
+}
+
+.nuevo-dato-Usuario {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.borrando-Usuario {
+    text-align: center;
+}
+
+.aviso-borrado-Usuario {
+    font-size: 2rem;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.borrando-Usuario input, .nuevo-dato-Usuario input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.botonera-Usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+@media (width < 770px) {
+    .usuario-Usuario, .actualizando-Usuario, .borrando-Usuario {
+        width: 100%;
+    }
+}

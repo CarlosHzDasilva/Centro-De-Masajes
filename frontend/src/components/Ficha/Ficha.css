@@ -1,0 +1,66 @@
+.titulo-Ficha {
+    font-weight: bold;
+}
+
+.ficha-Ficha {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imagen-Ficha {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.imagen-Ficha img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid rgb(100, 146, 131);
+    background-color: rgb(160, 229, 206);
+    transition: all 0.5s;
+    padding: 10px;
+}
+
+.imagen-Ficha img:hover {
+    transform: scale(1.1);
+    background-color: rgb(212, 255, 241);
+    border: 2px solid rgb(100, 146, 131);
+    box-shadow: 5px 5px 15px #000000;
+}
+
+.contenedor-Ficha {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.tratamiento-Ficha, .descripcion-Ficha, .precio-Ficha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+@media (width < 770px) {
+    .ficha-Ficha {
+        flex-direction: column;
+    }
+    .contenedor-Ficha {
+        width: 90%;
+        margin-top: 30px;
+    }
+}

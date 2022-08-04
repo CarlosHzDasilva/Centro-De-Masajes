@@ -1,0 +1,89 @@
+.contenedor-Reservas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.titulo-Reservas {
+    text-align: center;
+}
+
+.hora-bloqueada {
+    background-color: #808080;
+    border: 2px solid #808080;
+}
+
+.hora-bloqueada:hover, .hora-bloqueada:active {
+    background-color: #808080;
+    border: 2px solid #808080;
+}
+
+.reservas-usuario-Reservas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.carta-reserva-Reservas {
+    width: 25%;
+    height: 300px;
+    border: 2px solid rgb(100, 146, 131);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(160, 229, 206);
+    text-align: center;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.carta-reserva-Reservas:hover {
+    transform: scale(1.1);
+    background-color: rgb(212, 255, 241);
+    border: 2px solid rgb(100, 146, 131);
+    box-shadow: 5px 5px 15px #000000;
+}
+
+.seleccion-reserva-Reservas, .calendario-Reservas, #horas-Reservas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.calendario-Reservas {
+    flex-direction: row;
+}
+
+#horas-Reservas {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu-reserva-Reservas {
+    text-align: center;
+}
+
+#select-Reservas, .calendario-Reservas input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media (width < 770px) {
+    .reservas-usuario-Reservas {
+        padding: 15px;
+    }
+
+    .carta-reserva-Reservas {
+        width: 35%;
+        height: 250px;
+    }
+}

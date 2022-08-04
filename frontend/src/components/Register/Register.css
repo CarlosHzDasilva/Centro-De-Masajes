@@ -1,0 +1,39 @@
+.formulario-Register  {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.formulario-Register input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.camposFormulario-Register, .registro-Register {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.show-password-Register {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.foto-Register {
+    text-align: end;
+}
+
+@media (width < 770px) {
+    .camposFormulario-Register, .registro-Register {
+        width: 100%;
+    }
+}
